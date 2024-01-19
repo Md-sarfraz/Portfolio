@@ -83,11 +83,11 @@ color: #fff;
 
 .bi{
     font-size: 18px ;
-    color: rgba(20, 157, 221, 255);
 }
 .main{
     width: 77%;
     margin-left: 23.2%;
+    overflow-x: hidden;
 }
 .background-img {
     width: 100%;
@@ -128,13 +128,14 @@ color: #fff;
     color: rgba(20, 157, 221, 255);
     font-size: 33px;
 }
-.about.bi {
+.about-details-1 i {
     font-size: 18px;
-    color: red;
+    color: rgba(20, 157, 221, 255);
 }
 .about-section{
     padding-left: 30px;
-    padding-right: 30px 
+    padding-right: 30px;
+    margin-top: 50px;
 }
 .about-text h1{
     height: 60px;
@@ -183,4 +184,11 @@ color: #fff;
 .about-details-1 ul li h4 span{
     font-weight: normal;
     margin-left: 5px;
+}
+.about-content p{
+    margin: 0px;
+}
+
+body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 1s !important;
 }
