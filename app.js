@@ -6,3 +6,4 @@ var typed = new Typed(".typing", {
 })
 
 AOS.init();
+

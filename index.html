@@ -15,7 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <!-- =================counter animation link =========================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -29,9 +35,13 @@
                 <div class="icon">
                     <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
                     <a href=""><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
-                    <a href=""><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
+                    <a href="https://www.instagram.com/sarfraz_charlie?igsh=dGt1cmhjZTg0MGw3"><i
+                            class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    <a href="https://github.com/Md-sarfraz?tab=overview&from=2024-01-01&to=2024-01-19"><i
+                            class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                    <a
+                        href="https://www.linkedin.com/in/md-sarfraz-900b4a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                            class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i></a>
                 </div>
             </div>
             <div class="nav">
@@ -114,13 +124,80 @@
                         </div>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, magni et? Culpa dolore
                             perferendis odio, veritatis inventore autem veniam, quos hic reprehenderit molestias
-                            ullam repudiandae deserunt eius eaque provident officia !</p>
+                            ullam repudiandae deserunt eius eaque provident officia neque nam assumenda perferendis
+                            commodi, cupiditate consequuntur, suscipit fugit cupiditate consequuntur, suscipit fugit !
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="fact-section">
+                <div class="fact-text">
+                    <h1>Fact</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nemo eligendi
+                        neque nam assumenda perferendis commodi, cupiditate consequuntur, suscipit fugit
+                        sed explicabo ipsa vero eum architecto magnam. Nesciunt, nulla ab? </p>
+                </div>
+                <div class="counter-section">
+                    <div class="counter-box" data-aos="fade-up">
+                        <span class="d-flex align-item-center"><i class="bi bi-emoji-smile"></i>
+                            <h1>232</h1>
+                        </span>
+
+                        <div class="counter-text">
+                            <strong>Happy Clients</strong>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                    <div class="counter-box" data-aos="fade-up">
+                        <span class="d-flex align-item-center">
+                            <i class="bi bi-journal-richtext"></i>
+                            <h1>101</h1>
+                        </span>
+
+                        <div class="counter-text">
+                            <strong>Projects</strong>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                    <div class="counter-box" data-aos="fade-up">
+                        <span class="d-flex align-item-center">
+                            <i class="bi bi-headset"></i>
+                            <h1>901</h1>
+                        </span>
+                        
+                        <div class="counter-text">
+                            <strong>Hours Of Support</strong>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                    <div class="counter-box" data-aos="fade-up">
+                        <span class="d-flex align-item-center" >
+                            <i class="bi bi-people"></i>
+                            <h1>32</h1>
+                        </span>
+                        
+                        <div class="counter-text">
+                            <strong>Hard Workers</strong>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function () {
 
+            $(".counter-box h1").counterUp({
+
+                delay: 10,
+
+                time: 1200
+
+            });
+        });
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="./app.js"></script>
