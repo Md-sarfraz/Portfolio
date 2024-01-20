@@ -7,6 +7,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /* font-family: "Open Sans", sans-serif; */
     color: #272829;
+    font-size: 18px;
+    letter-spacing: 0.2px;
 }
 
 .d-flex{
@@ -268,4 +270,106 @@ color: #fff;
     margin: 8px;
     color: rgb(115,132,155);
     font-style: 14px;
+}
+/* ============ skills section============== */
+.skills-section{
+    padding-top: 45px;
+    padding-bottom: 95px;
+    background-color: #f5f8fd;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.skills-text h1{
+    height: 60px;
+    width: 51px;
+    position: relative;
+    border-bottom: 3px solid #149ddd;
+    color: #173b6c;
+    font-size: 32px;
+}
+.skills-main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.leftside-skills{
+    width: 48%;
+}
+.rightside-skills{
+    width: 48%;
+}
+.skills{
+    width: 100;
+    justify-content: space-between;
+}
+.skills p{
+    margin: 13px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.skill-box{
+height: 10px;
+width:100%;
+background-color: #dce8f8;
+border-radius: 1px;
+}
+.html-box{
+    height: 10px;
+    width: 0%;
+    background-color: #149ddd;
+    border-radius: 2px;
+}
+.css-box{
+    height: 10px;
+    width: 0%;
+    background-color: #149ddd;
+    border-radius: 2px;
+}
+.javascript-box{
+    height: 10px;
+    width: 0%;
+    background-color: #149ddd;
+    border-radius: 2px;
+}
+.java-box{
+    height: 10px;
+    width: 0%;
+    background-color: #149ddd;
+    border-radius: 2px;
+}
+.python-box{
+    height: 10px;
+    width: 0%;
+    background-color: #149ddd;
+    border-radius: 2px;
+}
+.photoshop-box{
+    height: 10px;
+    width: 0%;
+    background-color: #149ddd;
+    border-radius: 2px;
+}
+.skills-section:hover .html-box{
+    width: 100%;
+    transition-duration: 2s;
+}
+.skills-section:hover .css-box{
+    width: 70%;
+    transition-duration: 2s;
+}
+.skills-section:hover .javascript-box{
+    width: 60%;
+    transition-duration: 2s;
+}
+.skills-section:hover .java-box{
+    width: 95%;
+    transition-duration: 2s;
+}
+.skills-section:hover .python-box{
+    width: 75%;
+    transition-duration: 2s;
+}
+.skills-section:hover .photoshop-box{
+    width: 50%;
+    transition-duration: 2s;
 }
