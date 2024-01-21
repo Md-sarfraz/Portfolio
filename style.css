@@ -7,7 +7,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     /* font-family: "Open Sans", sans-serif; */
     color: #272829;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 0.2px;
 }
 
@@ -293,10 +293,10 @@ color: #fff;
     justify-content: space-between;
 }
 .leftside-skills{
-    width: 48%;
+    width: 45%;
 }
 .rightside-skills{
-    width: 48%;
+    width: 45%;
 }
 .skills{
     width: 100;
@@ -306,6 +306,10 @@ color: #fff;
     margin: 13px;
     font-size: 13px;
     font-weight: bold;
+}
+.skills-icon{
+    display: flex;
+    margin: -6px;
 }
 .skill-box{
 height: 10px;
@@ -343,7 +347,7 @@ border-radius: 1px;
     background-color: #149ddd;
     border-radius: 2px;
 }
-.photoshop-box{
+.react-box{
     height: 10px;
     width: 0%;
     background-color: #149ddd;
@@ -351,25 +355,86 @@ border-radius: 1px;
 }
 .skills-section:hover .html-box{
     width: 100%;
-    transition-duration: 2s;
+    transition-duration:1s;
 }
 .skills-section:hover .css-box{
     width: 70%;
-    transition-duration: 2s;
+    transition-duration:1s;
 }
 .skills-section:hover .javascript-box{
     width: 60%;
-    transition-duration: 2s;
+    transition-duration:1s;
 }
 .skills-section:hover .java-box{
     width: 95%;
-    transition-duration: 2s;
+    transition-duration:1s;
 }
 .skills-section:hover .python-box{
     width: 75%;
     transition-duration: 2s;
 }
-.skills-section:hover .photoshop-box{
+.skills-section:hover .react-box{
     width: 50%;
     transition-duration: 2s;
 }
+.skills-icon i{
+    font-size: 25px;
+    color:#149ddd;
+
+}
+/* ==============resume-section================= */
+.resume-section{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+.resume-section h1{
+    height: 60px;
+    width: 51px;
+    position: relative;
+    border-bottom: 3px solid #149ddd;
+    color: #173b6c;
+    font-size: 32px;
+}
+.education-experience{
+    justify-content: space-between;
+    width: 100%;
+}
+.education-part{
+    width:48%;
+
+}
+.experience-part{
+    width: 48%;
+}
+.resume-box{
+    padding: 15px;
+    background-color: #f5f8fd;
+    margin-top: 10px;
+    border-radius:5px ;
+}
+.resume-box:hover{
+    box-shadow: 0px 3px 12px 0px;
+    border: 1px solid transparent;
+}
+.education-experience h2{
+    font-size: 20px;
+    color: #173b6c;
+}
+.education-experience h3{
+    margin: 0px;
+    height: 60px;
+    width: 51px;
+    border-bottom: 1.5px solid #149ddd;
+    color: #173b6c;
+    font-size: 19px;
+}
+.education-experience p{
+    margin: 0px;
+}
+.education-experience span{
+    margin:0px;
+    color: #149ddd;
+}
+
