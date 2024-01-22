@@ -42,9 +42,9 @@ body {
 
 }
 
-.Aside::-webkit-scrollbar {
+/* .Aside::-webkit-scrollbar {
     display: none;
-}
+} */
 
 .topAside {
     display: flex;
@@ -462,7 +462,7 @@ body {
 
 }
 
-/* ==============resume-section================= */
+/* ==============resume-section start================= */
 .resume-section {
     padding-top: 30px;
     padding-left: 30px;
@@ -540,6 +540,7 @@ body {
     background-color: #f5f8fd;
     padding-top: 40px;
     overflow: hidden;
+    padding-bottom: 50px;
 }
 
 .portfolio-text {
@@ -599,7 +600,7 @@ body {
 }
 
 .image-item:hover .image-link {
-    margin-top: -50px; 
+    margin-top: -50px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -611,7 +612,7 @@ body {
     padding-top: 14px;
 }
 
-.image-link i:hover{
+.image-link i:hover {
     background-color: #2485b1;
 }
 
@@ -636,4 +637,57 @@ body {
     width: 100%;
     font-size: 22px;
     color: #fff;
+}
+/* < !--======================portfolio-section-end=========================-->
+< !--======================service-section start=========================--> */
+.service-section{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.service-text h1{
+    height: 60px;
+    width: 51px;
+    border-bottom: 3px solid #149ddd;
+    color: #173b6c;
+    font-size: 32px;
+}
+.service-box-container{
+    display: flex;
+    width: 100%; 
+   flex-wrap: wrap;
+}
+.service-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    width: 32%;
+    background-color: #f5f8fd; 
+    margin:6px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px white;
+    scale: 1;
+    transition: all 0.4s ease-in-out !important;
+}
+.service-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    scale: 1.02;
+    transition: all 0.4s ease-in-out !important;
+    /* background-color:transparent;
+    border: 1px solid ; */
+}
+.service-box h1{
+    margin: 0px;
+}
+.service-box p{
+    margin: 0px;
+}
+.service-box i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #149ddd;
+    color: #ffffff;
 }
