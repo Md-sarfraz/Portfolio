@@ -483,6 +483,7 @@ body {
     justify-content: space-between;
     width: 100%;
     overflow: hidden;
+    padding-bottom: 30px;
 }
 
 .education-part {
@@ -537,6 +538,21 @@ body {
 /* ===================portfolio-section-start=================== */
 .portfolio-section {
     background-color: #f5f8fd;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.portfolio-text {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.portfolio-text h1 {
+    height: 60px;
+    width: 51px;
+    border-bottom: 3px solid #149ddd;
+    color: #173b6c;
+    font-size: 32px;
 }
 
 .portfolio-nav {
@@ -566,45 +582,56 @@ body {
 .portfolio-nav ul li:hover {
     color: #149ddd;
 }
-.portfolio-wrap{
+
+.portfolio-wrap {
     display: flex;
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.image-item{
+.image-item {
     height: 205px;
     width: 285px;
     margin: 15px 10px 15px 10px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
 }
-.image-item:hover .image-link{
-    margin-top: -50px;
+
+.image-item:hover .image-link {
+    margin-top: -50px; 
     transition: all 0.3s ease-in-out;
 }
-.image-item:hover .image-link i{
-   padding-top: 14px;
+
+.image-item img:hover {
+    /* opacity: 0.3; */
 }
+
+.image-item:hover .image-link i {
+    padding-top: 14px;
+}
+
 .image-link i:hover{
     background-color: #2485b1;
 }
-.image-item img{
+
+.image-item img {
     height: 100%;
     width: 100%;
 }
-.image-link{
+
+.image-link {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     height: 100%;
     width: 100%;
 }
-.image-link i{
+
+.image-link i {
     display: flex;
-    justify-content:center;
-    background-color:rgba(20, 157, 221, 0.75);
+    justify-content: center;
+    background-color: rgba(20, 157, 221, 0.75);
     height: 100%;
     width: 100%;
     font-size: 22px;
