@@ -597,6 +597,7 @@ body {
     margin: 15px 10px 15px 10px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    position: relative;
 }
 
 .image-item:hover .image-link {
@@ -604,8 +605,8 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.image-item img:hover {
-    /* opacity: 0.3; */
+.image-item:hover img {
+    opacity: 0.3;
 }
 
 .image-item:hover .image-link i {
@@ -627,6 +628,8 @@ body {
     align-items: center;
     height: 100%;
     width: 100%;
+    cursor: pointer;
+    position: absolute;
 }
 
 .image-link i {
@@ -672,6 +675,9 @@ body {
     scale: 1;
     transition: all 0.4s ease-in-out !important;
 }
+#service-section-mobile-icon{
+    padding:15px 18px 15px 18px ;
+}
 .service-box:hover{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
     scale: 1.02;
@@ -686,8 +692,13 @@ body {
     margin: 0px;
 }
 .service-box i{
-    padding: 10px;
+    padding: 15px;
     border-radius: 50%;
     background-color: #149ddd;
     color: #ffffff;
+}
+.service-box i:hover{
+    border: 1.5px solid #149ddd;;
+    background-color: transparent;
+    color: #149ddd;
 }
