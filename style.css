@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     padding: 0px;
     margin: 0px;
@@ -42,9 +44,9 @@ body {
 
 }
 
-/* .Aside::-webkit-scrollbar {
+.Aside::-webkit-scrollbar {
     display: none;
-} */
+}
 
 .topAside {
     display: flex;
@@ -660,15 +662,16 @@ body {
     display: flex;
     width: 100%; 
    flex-wrap: wrap;
+   justify-content: space-between;
 }
 .service-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
    align-items: center;
-    width: 32%;
+    width: 31%;
     background-color: #f5f8fd; 
-    margin:6px;
+    margin-bottom: 25px;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0px 0px 0px white;
@@ -679,7 +682,7 @@ body {
     padding:15px 18px 15px 18px ;
 }
 .service-box:hover{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     scale: 1.02;
     transition: all 0.4s ease-in-out !important;
     /* background-color:transparent;
@@ -690,15 +693,71 @@ body {
 }
 .service-box p{
     margin: 0px;
+    text-align: center;
 }
 .service-box i{
     padding: 15px;
     border-radius: 50%;
     background-color: #149ddd;
     color: #ffffff;
+    border: 1.5px solid #149ddd;;
+
 }
 .service-box i:hover{
     border: 1.5px solid #149ddd;;
     background-color: transparent;
     color: #149ddd;
 }
+/* ====================Testimonials-section-start=============== */
+.testimonials-section{
+    background-color: #f5f8fd;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.testimonials-title h1{
+    height: 60px;
+    width: 51px;
+    border-bottom: 3px solid #149ddd;
+    color: #173b6c;
+    font-size: 32px;
+}
+.testimonials-wrraper{
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    width: 100%;
+}
+.testimonials-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    width: 33%;
+    background-color: #ffffff; 
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px white;
+    scale: 1;
+    transition: all 0.4s ease-in-out !important;
+}
+.testimonials-box img{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+}
+.testimonials-box p {
+    font-size: 13px;
+    text-align: center;
+}
+.testimonials-box span{
+    margin: 0;
+}
+.testimonials-box h3{
+    margin: 0;
+    color: #149ddd;
+}
+
+
