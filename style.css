@@ -766,5 +766,177 @@ body {
     margin: 0;
     color: #149ddd;
 }
+/* ========================contact-section-start============================= */
+.contact-section{
+    /* width: 100%; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.contact-title h1{
+    height: 60px;
+    width: 51px;
+    border-bottom: 3px solid #149ddd;
+    color: #173b6c;
+    font-size: 32px;
+}
+.contact-info{
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);    background-color: #ffffff;
+    width: 40%;
+    padding:20px 0px 0px 30px;
+    padding-bottom: 35px
+}
+.contact-info p{
+    margin: 7px;
+    font-size: 16px;
+}
+.contact-info h3{
+    margin: 7px;
+    font-size: 24px;
+    font-weight:600;
+}
+.location{
+    display: flex;
+    padding-top: 10px;
+}
+.location:hover .location-icon i{
+    color: white;
+    background-color: #149ddd;
+    transition: 0.5s;
+}
+.location-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-title{
+    margin-left: 12px;
+}
+.location-icon i{
+    padding: 10px 13px 10px 13px;
+    background-color: #dff3fc;
+    border-radius: 50%;
+    color: #149ddd;
+}
+.email{
+    display: flex;
+    width: 30%;  
+    padding-top: 10px;
+}
+.email:hover .email-icon i{
+    color: white;
+    background-color: #149ddd;
+    transition: 0.5s;
+}
+.email-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.email-title{
+    margin-left: 12px;
+}
+.email-icon i{
+    padding: 10px 13px 10px 13px;
+    background-color: #dff3fc;
+    border-radius: 50%;
+    color: #149ddd;
+}
+.call{
+    display: flex;
+    width: 30%; 
+    padding-top: 10px;
+}
+.call:hover .call-icon i{
+    color: white;
+    background-color: #149ddd;
+    transition: 0.5s;
+}
+.call-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-icon i{
+    padding: 10px 13px 10px 13px;
+    background-color: #dff3fc;
+    border-radius: 50%;
+    color: #149ddd;
+}
+.call-title{
+    margin-left: 12px;
+}
+.google-map{
+    padding-top: 20px;
+}
+.contact-form{
+    width: 57%;
+    background-color: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);    background-color: #ffffff;
+    padding: 30px 30px 20px 30px;
+}
+.contact-form label{
+    padding-bottom: 10px;
+}
+.contact-first-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contact-name{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+.contact-name input{
+    height: 44px;
+    width: 215px;
+    border: 1px solid #149ddd;
+}
+.contact-email{
+    width: 47%;
+}
+.contact-email input{
+    height: 44px;
+    width: 215px;
+    border: 1px solid #149ddd;
+}
+.contact-subject{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.contact-subject input{
+    height: 44px;
+    border: 1px solid #149ddd;
+}
+.contact-message{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.contact-message textarea{
+    border: 1px solid #149ddd;
+    height: 250px;
+}
+.send-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.send-message button{
+    color: #ffffff;
+    background-color: #149ddd;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
