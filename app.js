@@ -34,3 +34,17 @@ $(document).ready(function() {
         }
     })
 })
+
+// for responsive
+var menuBtn=document.querySelector(".menu-icon");
+const aside=document.querySelector(".Aside");
+var counterClick=0;
+menuBtn.addEventListener("click",()=>{
+    if(counterClick%2==0){
+        aside.classList.add('Aside-show');
+    }
+    else{
+        aside.classList.remove('Aside-show');
+    }
+    counterClick++;
+})

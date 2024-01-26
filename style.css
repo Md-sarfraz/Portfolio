@@ -46,6 +46,9 @@ body {
 
 }
 
+.menu-icon{
+    display: none;
+}
 .Aside::-webkit-scrollbar {
     display: none;
 }
