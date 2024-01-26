@@ -26,11 +26,9 @@
     .menu-icon i{
         color: white !important;
         background-color:  #149ddd;
-        font-size: 40px;
+        font-size: 30px;
         border-radius: 50%;
-        padding: 10px;
-        padding-top: 2px;
-        padding-bottom: 2px;
+        padding: 6px 11px 6px 11px ;
         position: fixed;
        
     }
