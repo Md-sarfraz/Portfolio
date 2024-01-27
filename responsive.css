@@ -43,6 +43,14 @@
     .Screen-text p{
         width: 80%;
     }
+    .about-details-1{
+        flex-direction: column;
+    }
+    .about-details-1 ul {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
 .about-right{
     flex-direction: column;
     justify-content: center;
