@@ -1,134 +1,172 @@
 @media screen and (max-width:550px) and (min-width:100px) {
-    
-    .container{
+
+    .container {
         position: relative;
     }
-    .Aside{
+
+    .Aside {
         /* display: none !important; */
         position: absolute;
         z-index: 2;
-        left:-70%;
+        left: -70%;
         width: 70%;
         transition: all 0.4s ease-in-out;
     }
-    .Aside-show{
-        left:0% !important;
+
+    .Aside-show {
+        left: 0% !important;
         transition: all 0.4s ease-in-out;
         position: fixed !important;
     }
-    .menu-icon{
+
+    .menu-icon {
         position: absolute;
         display: flex;
         z-index: 2;
         right: 70px;
         top: 20px;
     }
-    .menu-icon i{
+
+    .menu-icon i {
         color: #ffffff !important;
         background-color: #149ddd;
         font-size: 30px;
         border-radius: 10%;
-        padding: 3px 7px 3px 7px ;
+        padding: 4px 7px 3px 7px;
         position: fixed;
-       border: 1px solid #ffffff;
+        border: 1px solid #ffffff;
     }
-    .main{
+
+    .main {
         margin-left: 0px;
         width: 100%;
     }
+
     .Screen-text {
         margin-left: 24px;
         margin-bottom: 60px;
     }
-    .Screen-text p{
+
+    .Screen-text p {
         width: 80%;
     }
-    .about-details-1{
+
+    .about-details-1 {
         flex-direction: column;
     }
+
     .about-details-1 ul {
         padding: 0px;
         margin: 0px;
         width: 100%;
     }
-.about-right{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.counter-section{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.skills-main{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.leftside-skills{
-    width: 100%;
-}
-.rightside-skills{
-    width: 100%;
-}
-.education-experience{
-    flex-direction: column;
-    width: 100%;
-}
-.education-part {
-    padding-top: 30px;
-    width: 100%;
-}
-.experience-part {
-padding-top: 30px;
-    width: 100%;
-}
-.education-part h2 {
-    width: 50px;
-    border-bottom: 1px solid #149ddd;
-    color: #173b6c;
-}
-.experience-part h2 {
-    width: 50px;
-    border-bottom: 1px solid #149ddd;
-    color: #173b6c;
-}
-.portfolio-nav ul{
-    width: 60%;
-}
-.service-box-container{
-    flex-direction: column;
-}
-.service-box{
-    width: 100%;
-}
-.contact-details {
-    flex-direction: column;
-}
-.contact-info {
-    width: 100%;
-}
-.contact-form {
-width: 100%;
-margin-top: 50px 
-}
-.contact-first-row{
-    flex-direction: column;
-}
-.contact-name{
-    width: 100%;
-}
-.contact-name input{
-    width: 100%;
-}
-.contact-email {
-    width: 100%;
-}
-.contact-email input {
-    width: 100%;
-}
-iframe{
-    width: 90% !important;
-}
+
+    .about-right {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .counter-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skills-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftside-skills {
+        width: 100%;
+    }
+
+    .rightside-skills {
+        width: 100%;
+    }
+
+    .education-experience {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .education-part {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .experience-part {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .education-part h2 {
+        width: 50px;
+        border-bottom: 1px solid #149ddd;
+        color: #173b6c;
+    }
+
+    .experience-part h2 {
+        width: 50px;
+        border-bottom: 1px solid #149ddd;
+        color: #173b6c;
+    }
+
+    .portfolio-nav ul {
+        width: 60%;
+    }
+
+    .service-box-container {
+        flex-direction: column;
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .contact-info p {
+        overflow-wrap: anywhere;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-top: 50px
+    }
+
+    .contact-first-row {
+        flex-direction: column;
+    }
+
+    .contact-name {
+        width: 100%;
+    }
+
+    .email,.call{
+        width: 100%;
+    }
+    .contact-name input {
+        width: 100%;
+    }
+
+    .contact-email {
+        width: 100%;
+    }
+
+    .contact-email input {
+        width: 100%;
+    }
+
+    iframe {
+        width: 90% !important;
+    }
 }

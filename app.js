@@ -23,7 +23,7 @@ $(document).ready(function() {
         ],
         responsive: {
             0: {
-                items: 4,
+                items: 1,
             },
             600: {
                 items: 4,
