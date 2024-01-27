@@ -25,10 +25,10 @@
     }
     .menu-icon i{
         color: #ffffff !important;
-        background-color: transparent;
+        background-color: #149ddd;
         font-size: 30px;
         border-radius: 10%;
-        padding: 1.5px 7px 1.5px 7px ;
+        padding: 3px 7px 3px 7px ;
         position: fixed;
        border: 1px solid #ffffff;
     }
