@@ -138,7 +138,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0.88;
+    /* opacity: 0.88; */
 }
 
 .background-img h1 {
