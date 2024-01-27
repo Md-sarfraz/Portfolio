@@ -3,7 +3,9 @@
     .container {
         position: relative;
     }
-
+    .background-img {
+        background-image: url('./image/background-img.JPG');
+    }
     .Aside {
         z-index: 2;
         left: -70%;
