@@ -5,18 +5,16 @@
     }
 
     .Aside {
-        /* display: none !important; */
-        position: absolute;
         z-index: 2;
         left: -70%;
         width: 70%;
         transition: all 0.4s ease-in-out;
+        position: fixed;
     }
 
     .Aside-show {
         left: 0% !important;
         transition: all 0.4s ease-in-out;
-        position: fixed !important;
     }
 
     .menu-icon {

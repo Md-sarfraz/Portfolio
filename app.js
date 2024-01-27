@@ -47,6 +47,7 @@ menuBtn.addEventListener("click",()=>{
         aside.classList.remove('Aside-show');
     }
     counterClick++;
+
     btn=document.querySelector(".nav ul")
     btn.addEventListener("click",()=>{
         aside.classList.remove('Aside-show');
