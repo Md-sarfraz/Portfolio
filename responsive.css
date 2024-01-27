@@ -156,6 +156,7 @@
     }
     .contact-name input {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .contact-email {
