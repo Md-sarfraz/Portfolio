@@ -36,6 +36,13 @@
         margin-left: 0px;
         width: 100%;
     }
+    .Screen-text {
+        margin-left: 24px;
+        margin-bottom: 60px;
+    }
+    .Screen-text p{
+        width: 80%;
+    }
 .about-right{
     flex-direction: column;
     justify-content: center;
