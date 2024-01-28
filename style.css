@@ -527,7 +527,7 @@ body {
     margin: 0px;
     height: 60px;
     width: 51px;
-    border-bottom: 1.5px solid #149ddd;
+    /* border-bottom: 1.5px solid #149ddd; */
     color: #173b6c;
     font-size: 19px;
 }
