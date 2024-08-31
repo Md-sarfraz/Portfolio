@@ -53,3 +53,23 @@ menuBtn.addEventListener("click",()=>{
         aside.classList.remove('Aside-show');
     });
 })
+
+
+const plusIcon=document.querySelectorAll(".bi-plus-lg");
+const imageSlider= document.querySelectorAll('.image-slider');
+const imageSliderImg= document.querySelectorAll('.image-slider img')
+const body=document.querySelector("body")
+console.log(imageSliderImg)
+console.log(plusIcon)
+plusIcon.forEach((element)=>{
+    element.addEventListener('click',()=>{
+        // imageSlider[0].classList.remove('d-none');
+        // imageSliderImg[0].style.width='100%';
+        // imageSliderImg[0].style.height='100%';
+        imageSliderImg[0].style.scale='1'
+        imageSliderImg[0].style.transition='all 0.4s ease-in-out';
+
+    })
+})
+
+

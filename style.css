@@ -19,7 +19,9 @@ body {
 .d-flex {
     display: flex;
 }
-
+.d-none{
+    display: none;
+}
 .align-item-center {
     align-items: center;
 }
@@ -548,6 +550,7 @@ body {
     padding-top: 40px;
     overflow: hidden;
     padding-bottom: 50px;
+    position: relative;
 }
 
 .portfolio-text {
@@ -1028,4 +1031,23 @@ input:focus {
     height: 40px;
     border: none;
     border-radius: 5px;
+}
+.full-Img{
+    display: none;
+}
+
+.image-slider{
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 15%;
+    height: 100vh;
+    width: 50%;
+}
+
+.image-slider img{
+    width: 100%;
+    height: 100%;
+    scale: 0;
+    transition: all 0.4s ease-in-out;
 }
